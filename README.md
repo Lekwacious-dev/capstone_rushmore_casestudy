@@ -5,10 +5,8 @@ This project designs and implements a production-ready PostgreSQL database syste
 
 The system is deployed in the cloud and populated with realistic synthetic data using Python and Faker to simulate real business operations while protecting customer privacy.
 
-
 ## Achitecture
-![Project Architecture](Data Pipeline.png)
-
+![Data Pipeline Architecture](Data%20Pipeline.png)
 
 ## Objectives
 
@@ -29,7 +27,7 @@ The system is deployed in the cloud and populated with realistic synthetic data 
 
 
 ## Data Model
-![Model Diagram](Model Diagram.png)
+![Model Diagram](Model%20Diagram.png)
 
 ## Database Schema
 Core Tables:
@@ -40,6 +38,10 @@ Core Tables:
 - Orders – Customer transactions
 - Order_Items – Line items per order
 
+
+
+## Business Analysys with POWER BI
+![Analysis Diagram](analysis.png)
 
 
 # HOW TO RUN THIS PROJECT
