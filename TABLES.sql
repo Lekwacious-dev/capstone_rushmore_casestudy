@@ -4,16 +4,19 @@ CREATE TABLE stores (
     store_id SERIAL PRIMARY KEY,
     address VARCHAR(255) NOT NULL,
     city VARCHAR(100) NOT NULL,
-    phone_number VARCHAR(20) NOT NULL,
+    phone_number VARCHAR(50) NOT NULL,
     opened_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+
+
 
 -- # CREATE INGREDIENTS TABLE
 CREATE TABLE ingredients(
     ingredient_id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     stock_quantity NUMERIC(10, 2) NOT NULL,
-    unit VARCHAR(20) NOT NULL
+    unit VARCHAR(50) NOT NULL
 );
 
 -- # CREATE CUSTOMERS TABLE
@@ -22,7 +25,7 @@ CREATE TABLE customers(
     first_name VARCHAR(100) NOT NULL,
     lastname VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
-    phone_number VARCHAR(20) UNIQUE NOT NULL,
+    phone_number VARCHAR(50) UNIQUE NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -32,7 +35,7 @@ CREATE TABLE menu_items(
     name VARCHAR(150) NOT NULL,
     category VARCHAR(50) NOT NULL,
     item_price NUMERIC(10, 2) NOT NULL,
-    size VARCHAR(20) NOT NULL
+    size VARCHAR(50) NOT NULL
 );
 
 
