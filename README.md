@@ -6,7 +6,7 @@ This project designs and implements a production-ready PostgreSQL database syste
 The system is deployed in the cloud and populated with realistic synthetic data using Python and Faker to simulate real business operations while protecting customer privacy.
 
 ## Achitecture
-![Data Pipeline Architecture](Data%20Pipeline.png)
+![Architecture](Data%20Pipeline.png)
 
 ## Objectives
 
